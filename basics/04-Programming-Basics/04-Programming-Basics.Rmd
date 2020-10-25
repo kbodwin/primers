@@ -579,17 +579,14 @@ In general, you should always use quotes unless you are writing the _name_ of so
 
 But what if the package that you want to load is not installed on your computer? How would you install the dplyr package on your own computer?
 
-```{r packages3, exercise = TRUE}
+You would need to run the following:
 
-```
-
-```{r packages3-solution}
+```{r packages3, eval = FALSE}
 install.packages("dplyr")
 ```
 
-```{r packages3-check}
-"Good job! You only need to install a package once, unless you wish to update your local copying by reinstalling the package. Notice that `install.packages()` _always_ requires quotes around the package name."
-```
+You only need to install a package once, unless you wish to update your local copying by reinstalling the package. Notice that `install.packages()` _always_ requires quotes around the package name.
+
 
 ### Congratulations!
 
